@@ -1,0 +1,23 @@
+# Core
+numpy
+opencv-python
+matplotlib
+tqdm
+pyyaml
+
+# PyTorch (CUDA version match karna)
+torch
+torchvision
+
+# RT-DETR dependencies
+scipy
+pillow
+onnx
+onnxruntime
+onnxscript
+
+# TensorRT Python API (optional for engine build)
+tensorrt
+
+# Utils
+pycocotools

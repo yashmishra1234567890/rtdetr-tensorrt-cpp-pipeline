@@ -1,0 +1,30 @@
+# Build and Binaries
+build/
+inference_cpp/build/
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.recipe
+*.tlog
+*.lastbuildstate
+
+# Models and Weights
+models/
+onnx/
+*.engine
+*.onnx
+*.onnx.data
+
+# Results
+results/
+*.jpg
+*.png
+
+# VS Code specific (optional, but good practice if you don't want local settings shared)
+.vscode/
+
+# Python caches
+__pycache__/
+*.pyc
